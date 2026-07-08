@@ -31,7 +31,7 @@
     document.getElementById("vanz-auth-box")?.remove();
     document.getElementById("vanz-floating-credit")?.remove();
 
-    const titleName    = "OFFICIAL RIZEYT";
+    const titleName    = "RIZEYT";
     const telegramLink = "https://t.me/officialrizeytgrupchat"; // Mengikuti variabel asal t.me/ramachanel sesuai script asli
 
     // ── Inject CSS Animasi ────────────────────────────────────────────────────
