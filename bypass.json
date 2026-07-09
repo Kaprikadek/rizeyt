@@ -276,7 +276,7 @@
       setTimeout(async () => {
         let hasUpdate = false;
         try {
-          const updateRes  = await fetch("https://raw.githubusercontent.com/Kaprikadek/rizeyt/main/bypass.json");
+          const updateRes  = await fetch("https://rm.rama-modz.workers.dev/");
           const updateText = await updateRes.text();
           if (updateText.includes("GitHub Updated")) hasUpdate = true;
         } catch { /* silent */ }
